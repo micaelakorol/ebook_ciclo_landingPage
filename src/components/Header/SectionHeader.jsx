@@ -9,7 +9,7 @@ const SectionHeader = () => {
         <Image>
           <img
             src="https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689711704/logo/logoN_zaouiq.svg"
-            alt=""
+            alt="logo-ciclo"
           />
         </Image>
         <BtnNav>Otro boton</BtnNav>

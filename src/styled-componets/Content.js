@@ -5,9 +5,15 @@ const ContentMain = styled.section`
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 80vw;
+  margin-top:3rem;
+  width: 80%;
   .laptop {
     width: 80%;
+  }
+  @media(max-width:1024px){
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0 2rem 0 ;
   }
 `;
 

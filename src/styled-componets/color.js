@@ -3,6 +3,8 @@ export const color = {
     white: "#FFF",
     btnMain: "#151618",
     ciclo: "#FFD51D",
-    gray:"#A7ABB5",
-    dark:"#1D1E25"
+    gray:"#797979",
+    grayLight:"#F1F1F1",
+    dark:"#1D1E25",
+    yellowLight:"#F9D682"
 }

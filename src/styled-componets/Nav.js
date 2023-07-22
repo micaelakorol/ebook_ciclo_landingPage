@@ -22,7 +22,7 @@ const Image = styled.section`
 
 const BtnNav = styled(BtnMain)`
 color: ${color.btnMain};
-background-color: ${color.ciclo};
+background-color: ${color.yellowLight};
 height: 5%;
 padding: .7rem 2rem;
 margin-top: -.2rem;

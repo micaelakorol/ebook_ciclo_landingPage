@@ -8,8 +8,9 @@ const Content = () => {
     <ContentMain>
       <img src={laptop} alt="laptop" className="laptop" />
       <ContentDescription>
-      <TitlePhoto>TITULO</TitlePhoto>
+      <TitlePhoto>Este libro es para ti si...</TitlePhoto>
       <Text>
+        Beneficios del ebook
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo,
         dolores et sint quasi numquam natus vitae voluptas enim quos nisi,
         officia eligendi magnam, iusto fugit ullam ducimus ipsa commodi
