@@ -18,8 +18,9 @@ font-weight: 500;
 text-align: center;
 margin: 0 .5rem 0 .5rem;
 `
-const BtnMain = styled.button`
+const BtnMain = styled.a`
 margin: 1rem 0 0 1rem;
+text-decoration: none;
 padding:.7rem 4rem;
 font-size: 1.01rem;
 color: ${color.white};

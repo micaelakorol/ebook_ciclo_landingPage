@@ -22,8 +22,9 @@ const ContentDescription = styled.section`
   flex-direction: column;
   justify-content: center;
   margin: 0 1rem 0 1rem;
-  button {
+  a {
     width: 35%;
+    text-align: center;
     padding: 0.7rem 0.5rem;
     margin: 1rem 0 0 0;
   }
@@ -33,8 +34,21 @@ const TitlePhoto = styled.h3`
   margin-bottom: 0.7rem;
 `;
 
-const Text = styled.p`
+const List = styled.ul`
   color: ${color.gray};
 `;
 
-export { ContentMain, Text, TitlePhoto, ContentDescription };
+const AboutMe = styled.p`
+  color: ${color.gray};
+  width: 60%;
+  text-align: center;
+  margin:.6rem 0 .6rem 0;
+`;
+
+const DetailsEbook = styled.details`
+margin: .5rem 0 .5rem 0;
+cursor: pointer;
+text-decoration:underline;
+`
+
+export { ContentMain, List, TitlePhoto, ContentDescription,AboutMe,DetailsEbook };

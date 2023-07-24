@@ -13,11 +13,11 @@ const Main = () => {
     <ContainerPrincipal>
       <img src={cohete} alt="cohete" />
       <TitleMain>
-        Descubre el Poder de <mark>HTML</mark>: Una introducción paso a paso
+        <mark>HTML Fundamental:</mark> Una guía desde cero
       </TitleMain>
       <Subtitle>
       <mark>HTML</mark>, es la Puerta de entrada al mundo del desarrollo web. Este ebook,
-        es especialmente introductorio y amigable para No Programadores.
+        es especialmente introductorio y amigable para No Programadores y novatos.
         Comienza aprendiendo los Conceptos básicos.
       </Subtitle>
       <BtnMain>¡Comencemos!</BtnMain>

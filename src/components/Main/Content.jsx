@@ -1,22 +1,36 @@
 import React from "react";
-import { ContentMain, TitlePhoto,Text, ContentDescription } from "../../styled-componets/Content";
+import {
+  ContentMain,
+  TitlePhoto,
+  ContentDescription,
+  List,
+} from "../../styled-componets/Content";
 import laptop from "../../assets/laptop.svg";
 import { BtnMain } from "../../styled-componets/Main";
+import EbookContent from "./EbookContent";
 
 const Content = () => {
   return (
     <ContentMain>
       <img src={laptop} alt="laptop" className="laptop" />
       <ContentDescription>
-      <TitlePhoto>Este libro es para ti si...</TitlePhoto>
-      <Text>
-        Beneficios del ebook
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo,
-        dolores et sint quasi numquam natus vitae voluptas enim quos nisi,
-        officia eligendi magnam, iusto fugit ullam ducimus ipsa commodi
-        officiis!
-      </Text>
-      <BtnMain>Otro boton</BtnMain>
+        <TitlePhoto>Este ebook es para ti si...</TitlePhoto>
+        <List>
+          <li>
+            Eres un principiante en el mundo del desarrollo web y deseas
+            aprender los fundamentos de HTML desde cero.
+          </li>
+          <li>
+            Necesitas una guía paso a paso que te ayude a dominar los conceptos
+            básicos.
+          </li>
+          <li>
+            Estás buscando un recurso introductorio para comenzar tu viaje como
+            desarrollador web.
+          </li>
+        </List>
+        <EbookContent />
+        <BtnMain id="start">¡Comencemos!</BtnMain>
       </ContentDescription>
     </ContentMain>
   );

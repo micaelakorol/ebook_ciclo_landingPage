@@ -1,5 +1,4 @@
 import React from "react";
-import { logo } from "../../variables/var";
 import { BtnNav, Header, Navigation, Image } from "../../styled-componets/Nav";
 
 const SectionHeader = () => {
@@ -12,7 +11,7 @@ const SectionHeader = () => {
             alt="logo-ciclo"
           />
         </Image>
-        <BtnNav>Otro boton</BtnNav>
+        <BtnNav href="#start">+ Información</BtnNav>
         {/* button */}
       </Navigation>
     </Header>
