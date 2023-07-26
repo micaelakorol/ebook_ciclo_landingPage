@@ -7,9 +7,11 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 margin-top:-3rem;
+@media(max-width:480px) {
+    margin-top:0;
+}
 `
 const TitleMain = styled.h1`
-//font-size: 2.4rem;
 margin:1rem 0 1rem 0;
 text-align: center;
 `

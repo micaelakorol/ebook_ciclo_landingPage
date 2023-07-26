@@ -16,18 +16,20 @@ margin: 0 .5rem 0 .5rem;
 
 const Image = styled.section`
   img{
-    width: 99%;
+    width:auto;
   }
 `
 
 const BtnNav = styled(BtnMain)`
 color: ${color.btnMain};
 background-color: ${color.yellowLight};
-height: 5%;
 padding: .7rem 2rem;
 margin-top: -.2rem;
 text-transform: uppercase;
 font-size: .7rem;
+@media(max-width:480px) {
+  font-size: .9rem;
+}
 `
 
 export { Header,Navigation, BtnNav, Image };

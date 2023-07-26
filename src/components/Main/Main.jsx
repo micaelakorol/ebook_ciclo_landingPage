@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  BtnMain,
   ContainerPrincipal,
   Subtitle,
   TitleMain,
@@ -8,6 +7,8 @@ import {
 import cohete from "../../assets/cohete.svg";
 import Content from "./Content";
 import Me from "./Me";
+import { linkHotmart } from "../../variables/var";
+import Ancla from "../../reusable/Ancla";
 const Main = () => {
   return (
     <ContainerPrincipal>
@@ -16,11 +17,11 @@ const Main = () => {
         <mark>HTML Fundamental:</mark> Una guía desde cero
       </TitleMain>
       <Subtitle>
-      <mark>HTML</mark>, es la Puerta de entrada al mundo del desarrollo web. Este ebook,
+      <mark>HTML</mark> es la Puerta de entrada al mundo del desarrollo web. Este ebook,
         es especialmente introductorio y amigable para No Programadores y novatos.
         Comienza aprendiendo los Conceptos básicos.
       </Subtitle>
-      <BtnMain>¡Comencemos!</BtnMain>
+      <Ancla href={linkHotmart}>¡Comencemos!</Ancla>
       <Content />
       <Me />
     </ContainerPrincipal>

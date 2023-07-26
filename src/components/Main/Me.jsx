@@ -11,7 +11,7 @@ const Me = () => {
       </TitleMain>
       <AboutMe>
         ¡Bienvenid@! Mi nombre es Micaela y soy la creadora de esta guía. Soy
-        programadora en ciclo marketing digital y desarrollo. Mi deseo es que
+        programadora en Ciclo marketing digital y Desarrollo. Mi deseo es que
         aproveches al máximo esta guía y sientas la misma emoción y satisfacción
         que yo experimenté cuando comencé mi viaje en el desarrollo web. Si
         tienes alguna pregunta o necesitas ayuda en cualquier momento, estaré

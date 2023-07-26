@@ -6,9 +6,10 @@ import {
   List,
 } from "../../styled-componets/Content";
 import laptop from "../../assets/laptop.svg";
-import { BtnMain } from "../../styled-componets/Main";
 import EbookContent from "./EbookContent";
-
+import { linkHotmart } from "../../variables/var";
+import Ancla from "../../reusable/Ancla";
+import { BtnNav } from "../../styled-componets/Nav";
 const Content = () => {
   return (
     <ContentMain>
@@ -30,7 +31,7 @@ const Content = () => {
           </li>
         </List>
         <EbookContent />
-        <BtnMain id="start">¡Comencemos!</BtnMain>
+        <Ancla href={linkHotmart} id="start">¡Comencemos!</Ancla>
       </ContentDescription>
     </ContentMain>
   );

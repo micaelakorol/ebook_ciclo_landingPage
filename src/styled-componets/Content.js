@@ -5,15 +5,27 @@ const ContentMain = styled.section`
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top:3rem;
+  margin-top: 3rem;
   width: 80%;
   .laptop {
     width: 80%;
   }
-  @media(max-width:1024px){
+  @media (max-width: 1024px) {
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 0 2rem 0 ;
+    margin: 0 0 2rem 0;
+  }
+  @media (max-width: 480px) {
+    .laptop{
+      width: 100%;
+    }
+    li,details,a{
+      font-size: 1.3rem;
+    }
+    h3{ 
+      font-size: 1.7rem;
+      margin:2rem 0 2rem 0 ;
+    }
   }
 `;
 
@@ -28,6 +40,14 @@ const ContentDescription = styled.section`
     padding: 0.7rem 0.5rem;
     margin: 1rem 0 0 0;
   }
+  @media (max-width: 480px) {
+    a {
+      width: 100%;
+    }
+    .laptop{
+      width: 100%;
+    }
+  }
 `;
 const TitlePhoto = styled.h3`
   color: ${color.dark};
@@ -39,16 +59,28 @@ const List = styled.ul`
 `;
 
 const AboutMe = styled.p`
-  color: ${color.gray};
-  width: 60%;
+  color: ${color.aboutMe};
+  width: 70%;
   text-align: center;
-  margin:.6rem 0 .6rem 0;
+  margin:1rem 0 1rem 0;
+  @media(max-width:480px) {
+    font-size: 1.3rem;
+    width: 100%;
+    padding: .5rem;
+  }
 `;
 
 const DetailsEbook = styled.details`
-margin: .5rem 0 .5rem 0;
-cursor: pointer;
-text-decoration:underline;
-`
+  margin: 0.5rem 0 0.5rem 0;
+  cursor: pointer;
+  text-decoration: underline;
+`;
 
-export { ContentMain, List, TitlePhoto, ContentDescription,AboutMe,DetailsEbook };
+export {
+  ContentMain,
+  List,
+  TitlePhoto,
+  ContentDescription,
+  AboutMe,
+  DetailsEbook,
+};
