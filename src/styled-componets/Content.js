@@ -16,15 +16,17 @@ const ContentMain = styled.section`
     margin: 0 0 2rem 0;
   }
   @media (max-width: 480px) {
-    .laptop{
+    .laptop {
       width: 100%;
     }
-    li,details,a{
+    li,
+    details,
+    a {
       font-size: 1.3rem;
     }
-    h3{ 
+    h3 {
       font-size: 1.7rem;
-      margin:2rem 0 2rem 0 ;
+      margin: 2rem 0 2rem 0;
     }
   }
 `;
@@ -44,7 +46,7 @@ const ContentDescription = styled.section`
     a {
       width: 100%;
     }
-    .laptop{
+    .laptop {
       width: 100%;
     }
   }
@@ -62,11 +64,11 @@ const AboutMe = styled.p`
   color: ${color.aboutMe};
   width: 70%;
   text-align: center;
-  margin:1rem 0 1rem 0;
-  @media(max-width:480px) {
+  margin: 1rem 0 1rem 0;
+  @media (max-width: 480px) {
     font-size: 1.3rem;
     width: 100%;
-    padding: .5rem;
+    padding: 0.5rem;
   }
 `;
 

@@ -9,7 +9,6 @@ import laptop from "../../assets/laptop.svg";
 import EbookContent from "./EbookContent";
 import { linkHotmart } from "../../variables/var";
 import Ancla from "../../reusable/Ancla";
-import { BtnNav } from "../../styled-componets/Nav";
 const Content = () => {
   return (
     <ContentMain>
@@ -31,7 +30,9 @@ const Content = () => {
           </li>
         </List>
         <EbookContent />
-        <Ancla href={linkHotmart} id="start">¡Comencemos!</Ancla>
+        <Ancla href={linkHotmart} id="start">
+          ¡Comencemos!
+        </Ancla>
       </ContentDescription>
     </ContentMain>
   );

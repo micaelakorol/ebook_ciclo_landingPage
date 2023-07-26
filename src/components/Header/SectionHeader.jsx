@@ -6,10 +6,7 @@ const SectionHeader = () => {
     <Header>
       <Navigation>
         <Image>
-          <img
-            src={logo}
-            alt="logo-ciclo"
-          />
+          <img src={logo} alt="logo-ciclo" />
         </Image>
         <BtnNav href="#start">+ Información</BtnNav>
       </Navigation>

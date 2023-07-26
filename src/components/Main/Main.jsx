@@ -17,9 +17,9 @@ const Main = () => {
         <mark>HTML Fundamental:</mark> Una guía desde cero
       </TitleMain>
       <Subtitle>
-      <mark>HTML</mark> es la Puerta de entrada al mundo del desarrollo web. Este ebook,
-        es especialmente introductorio y amigable para No Programadores y novatos.
-        Comienza aprendiendo los Conceptos básicos.
+        <mark>HTML</mark> es la Puerta de entrada al mundo del desarrollo web.
+        Este ebook, es especialmente introductorio y amigable para No
+        Programadores y novatos. Comienza aprendiendo los Conceptos básicos.
       </Subtitle>
       <Ancla href={linkHotmart}>¡Comencemos!</Ancla>
       <Content />
