@@ -7,7 +7,7 @@ import {
 } from "../../styled-componets/Content";
 import laptop from "../../assets/laptop.svg";
 import EbookContent from "./EbookContent";
-import { linkHotmart } from "../../variables/var";
+import { linkCompra } from "../../variables/var";
 import Ancla from "../../reusable/Ancla";
 const Content = () => {
   return (
@@ -30,8 +30,8 @@ const Content = () => {
           </li>
         </List>
         <EbookContent />
-        <Ancla href={linkHotmart} id="start">
-          ¡Comencemos!
+        <Ancla href={linkCompra} id="start">
+          ¡Lo quiero!
         </Ancla>
       </ContentDescription>
     </ContentMain>
