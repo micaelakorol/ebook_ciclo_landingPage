@@ -13,6 +13,7 @@ export const ItemEbook = {
       { id: 11, item: "Comentarios" },
       { id: 12, item: "Breve introducción al Diseño Responsivo" },
       { id: 13, item: "Creando nuestro primer documento en VSC" },
+      { id: 13, item: "Archivo de regalo, donde desarrollamos un Formulario + una Lista ¡Con estilos CSS!" },
     ],
   };
   
